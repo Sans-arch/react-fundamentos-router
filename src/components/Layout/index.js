@@ -27,7 +27,7 @@ export default function Layout({ onToogleTheme, selectedTheme }) {
         <Link to="/posts/1154654545">Post</Link>
       </Nav>
       <Routes />
-      <Footer onToogleTheme={onToogleTheme} selectedTheme={selectedTheme} />
+      {/* <Footer onToogleTheme={onToogleTheme} selectedTheme={selectedTheme} /> */}
     </BrowserRouter>
   );
 }
